@@ -6,9 +6,8 @@ body{
 
 main{
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     justify-content: right;
-    align-items: flex-end;
     font-size: 16px;
     margin: 100px auto;
     max-width: 780px;
@@ -73,4 +72,13 @@ main div#form-box form button{
     text-transform: uppercase;
     border-radius: 4px;
     border: 1px solid transparent;
+}
+
+@media (max-width: 375px){
+    main{
+        flex-direction: column;
+    }
+    main div.flex-item{
+        width: 100%;
+    }
 }
