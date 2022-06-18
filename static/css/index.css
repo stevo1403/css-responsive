@@ -42,6 +42,9 @@ main div#form-box p{
     box-shadow: 0px 4px hsl(0deg 60% 64%);
 }
 
+main div#form-box p span{
+    color: hsl(246, 25%, 77%);
+}
 main div#form-box form{
     background-color: white;;
     border: 1px solid white;
@@ -75,6 +78,7 @@ main div#form-box form button{
     border-radius: 4px;
     border: 1px solid transparent;
     box-shadow: 0px 2px hsl(147, 91%, 96%);
+    font-weight: 600;
 }
 
 main div#form-box form button:hover{
@@ -84,11 +88,11 @@ main div#form-box form button:hover{
 main div#form-box form span#t-and-c{
     padding: 5px;
     font-size: 13px;
-    color: #E2E1E9;
+    color: hsl(246, 25%, 77%);
 }
 main div#form-box form span#t-and-c a{
-    color: #F2B5BA;
-    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-weight: 500;
 }
 @media (max-width: 375px){
     main{
